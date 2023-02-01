@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    
+    <title>bot</title>
+</head>
+<body>
+        <div class="container" id="app">
+
+            
+           
+            <div class="fabContainer">
+
+                <div :class="['message',showFab?'show':'']">
+                    <p>Hi there!, This is Trevis am here to help you
+                        </p>
+                </div>
+                <div class="fab" @click="openChat" @mouseover="showEnter" @mouseleave="hideLeave">
+                    <img src="./BOT.svg" alt="" srcset="">
+                </div>
+                <div class="chatContainer" v-show="showChat">
+                    <div class="chatHead">
+                        <div class="botPic">
+                            <img src="./BOT.svg" alt="">
+                        </div>
+                        <div class="close"@click="closeChat">
+                            &times;
+                        </div>
+                    </div>
+                    <div class="chatBody">
+                        <p v-show="messages.length == 0" style="padding:20px;">Start chat...</p>
+                        <chat-message v-for="message in messages" :key="message.id" :type="message.type" :message="message.message"></chat-message>
+                    </div>
+                    <div class="chatFoot">
+                        <div class="entry">
+                            <input v-model="text" type="text" placeholder="text here....">
+                            <button @click="sendMsg">send</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="botContainer">
+            </div>
+
+        </div>
+</body>
+<script src="./axios.min.js"></script>
+<script src="./vue.min.js"></script>
+<script src="./main.js"></script>
+</html>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 27.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 792 612" style="enable-background:new 0 0 792 612;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#E6E7E8;}
+	.st1{fill:#414042;}
+	.st2{fill:#27AAE1;}
+</style>
+<g>
+	<g>
+		<path class="st0" d="M649.6,392.5H142.4c-14.5,0-26.3-11.7-26.3-26.3l0,0c0-14.5,11.7-26.3,26.3-26.3h507.1
+			c14.5,0,26.3,11.7,26.3,26.3l0,0C675.8,380.7,664,392.5,649.6,392.5z"/>
+		<path class="st0" d="M528.5,485.9H261.6c-66.1,0-119.6-53.6-119.6-119.6l0,0c0-66.1,53.6-119.6,119.6-119.6h266.9
+			c66.1,0,119.6,53.6,119.6,119.6l0,0C648.1,432.3,594.5,485.9,528.5,485.9z"/>
+	</g>
+	<g>
+		<path class="st1" d="M507.5,422.3h-225c-30.9,0-56.1-25.1-56.1-56.1l0,0c0-30.9,25.1-56.1,56.1-56.1h225
+			c30.9,0,56.1,25.1,56.1,56.1l0,0C563.5,397.2,538.4,422.3,507.5,422.3z"/>
+		<circle class="st2" cx="483.2" cy="366.2" r="26.3"/>
+		<circle class="st2" cx="301.5" cy="366.2" r="26.3"/>
+	</g>
+	<g>
+		<ellipse class="st0" cx="411.1" cy="246.6" rx="45.8" ry="29.7"/>
+		<g>
+			<rect x="405.7" y="166" class="st0" width="10.7" height="53.4"/>
+			<circle class="st0" cx="411.1" cy="146.3" r="20.1"/>
+		</g>
+	</g>
+</g>
+</svg>
